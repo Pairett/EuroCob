@@ -12,11 +12,9 @@ Using [itertools](https://docs.python.org/3/library/itertools.html "itertools") 
 2. Eliminate the combinations that all numbers are even and odd
 3. Eliminate the combinations that have a very small difference between the numbers
 
-(k[3]+k[4])-(k[0]+k[1])=c
-
-c/k[2]= x
-
-x>`difference`
+    (k[3]+k[4])-(k[0]+k[1])=c
+    c/k[2]= x
+    x>`difference`
 
 ## To do
 - [ ] Extract the winning numbers from a website
