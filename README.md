@@ -7,7 +7,7 @@ EuroMillions combinations calculator, using what I know of probabilities I try t
 ### Combinations
 Using [itertools](https://docs.python.org/3/library/itertools.html "itertools") I calculate all the combinations.
 
-### Probabilidad
+### Probability
 1. Eliminated consecutive combinations
 2. Eliminate the combinations that all numbers are even and odd
 3. Eliminate the combinations that have a very small difference between the numbers
@@ -17,6 +17,9 @@ Using [itertools](https://docs.python.org/3/library/itertools.html "itertools") 
 c/k[2]= x
 x>"difference"
 ```
+
+### Actions
+1. Random combinations
 
 ## To do
 - [ ] Extract the winning numbers from a website

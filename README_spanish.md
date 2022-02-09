@@ -18,6 +18,9 @@ c/k[2]= x
 x>*diferencia*
 ```
 
+### Acciones
+1. Combinaciones aleatorias
+
 ## Más a delante
 - [ ] Extraer de una web los números ganadores
    - [ ] Clasificar los números según veces que han salido

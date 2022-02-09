@@ -25,6 +25,10 @@ def initationSelect():
     print("Eliminate the combinations that have a very small difference between the numbers")
     print("-----------------------------------------------------")
     printNumCombinations(rightSelect)
+    print("How much random combinations do you want?")
+    quantity = int(input("Enter a number: "))
+    randomCombinations(quantity, rightSelect)
+
 
 
 
@@ -36,6 +40,18 @@ def printNumCombinations(selectedCombinations):
     print("Total stars: ", stars)
     print("Total combinations: ", f'{combinations:,}')
     print(" ")
+
+def randomCombinations(quantiti, selectedCombinations):
+    numbers = len(selectedCombinations.numbers)
+    stars = len(selectedCombinations.stars)
+    while 0<quantiti:
+        number = selectedCombinations.numbers[random.randint(0, numbers-1)]
+        star = selectedCombinations.stars[random.randint(0, stars-1)]
+        print("-----------------------------------------------------")
+        print("Numbers {0} / Stars {1}".format(number, star))
+        print(" ")
+        quantiti-=1
+
 
 
 
