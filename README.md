@@ -22,7 +22,7 @@ x>"difference"
 1. Random combinations
 
 ## To do
-- [ ] Extract the winning numbers from a website
+- [x] Extract the winning numbers from a website
    - [ ] Sort the numbers according to times they have come out
 - [ ] Sift combination according to the table of numbers obtained above.
 

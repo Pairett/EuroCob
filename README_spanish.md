@@ -22,7 +22,7 @@ x>*diferencia*
 1. Combinaciones aleatorias
 
 ## Más a delante
-- [ ] Extraer de una web los números ganadores
+- [x] Extraer de una web los números ganadores
    - [ ] Clasificar los números según veces que han salido
 - [ ] Cribar combinaciones según la tabla de números obtenida anteriormente.
 

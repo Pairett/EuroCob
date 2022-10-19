@@ -2,12 +2,14 @@ import random
 import math
 
 from Combination import Combination
+from scraper import CollectStadistics
 
 __author__ = "Pairett"
 
 def initationSelect():
     rightSelect = list()
 
+    
     combination = Combination()
     rightSelect = combination.selectValidCombination()
     print("All possible combinations")
@@ -28,6 +30,11 @@ def initationSelect():
     print("How much random combinations do you want?")
     quantity = int(input("Enter a number: "))
     randomCombinations(quantity, rightSelect)
+    
+
+    C = CollectStadistics(ids="stadistics")
+    stadistic = C.collect_numbersStadistics()
+
 
 
 
